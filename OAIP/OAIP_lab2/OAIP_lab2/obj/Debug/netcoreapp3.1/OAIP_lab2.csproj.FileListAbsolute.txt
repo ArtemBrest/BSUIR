@@ -1,0 +1,14 @@
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\bin\Debug\netcoreapp3.1\OAIP_lab2.exe
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\bin\Debug\netcoreapp3.1\OAIP_lab2.deps.json
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\bin\Debug\netcoreapp3.1\OAIP_lab2.runtimeconfig.json
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\bin\Debug\netcoreapp3.1\OAIP_lab2.runtimeconfig.dev.json
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\bin\Debug\netcoreapp3.1\OAIP_lab2.dll
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\bin\Debug\netcoreapp3.1\OAIP_lab2.pdb
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.csproj.AssemblyReference.cache
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.AssemblyInfoInputs.cache
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.AssemblyInfo.cs
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.csproj.CoreCompileInputs.cache
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.dll
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.pdb
+C:\Users\artoy\source\repos\OAIP_lab2\OAIP_lab2\obj\Debug\netcoreapp3.1\OAIP_lab2.genruntimeconfig.cache
