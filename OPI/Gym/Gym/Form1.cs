@@ -133,13 +133,6 @@ namespace Gym
                 connectString.Close();
             }
         }
-        private void deleteButton_Click(object sender, EventArgs e)
-        {
-            foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-            {
-                dataGridView1.Rows.Remove(row);
-            }
-        }
         private void addButton_Click(object sender, EventArgs e)
         {
             DataRow row = ds.Tables[0].NewRow();
