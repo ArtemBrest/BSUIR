@@ -133,6 +133,13 @@ namespace Gym
                 connectString.Close();
             }
         }
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+            {
+                dataGridView1.Rows.Remove(row);
+            }
+        }
         private void addButton_Click(object sender, EventArgs e)
         {
             DataRow row = ds.Tables[0].NewRow();
@@ -145,6 +152,21 @@ namespace Gym
         private void textSeach2_Click(object sender, EventArgs e)
         {
             textSearch.Text = "";
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            NpgsqlConnection connectString = new NpgsqlConnection(connectionString);
+            NpgsqlCommand TableConnection = new NpgsqlCommand();
+            connectString.Open();
+            NpgsqlDataAdapter da = new NpgsqlDataAdapter("select * from students JOIN coach ON students.fk_students_coach = coach.coach_id", connectString);
+            DataTable dt = new DataTable("students");
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            dt.DefaultView.RowFilter = String.Format("phone_students like '%" + textBox1.Text + "%'");
+
+            TableConnection.Dispose();
+            connectString.Close();
         }
     }
 }
